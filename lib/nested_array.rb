@@ -25,11 +25,7 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
-  # assembled_matrix = []
-  # concat = CONVENTIONAL_PRODUCE.concat(ORGANIC_PRODUCE)
-  # assembled_matrix.push(concat)
-  
-  # return assembled_matrix
+
 end
 
 def sorted_matrix

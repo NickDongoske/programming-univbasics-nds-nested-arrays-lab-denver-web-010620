@@ -22,7 +22,7 @@ new_array = []
 x = ORGANIC_PRODUCE 
 y = CONVENTIONAL_PRODUCE
 
-p y.push(x, y) 
+p new_array.push(x, y) 
 
  
   # Build an array that contains both of the above arrays

@@ -29,6 +29,8 @@ def assembled_matrix
   assembled_matrix = []
   concat = CONVENTIONAL_PRODUCE.concat(ORGANIC_PRODUCE)
   assembled_matrix.push(concat)
+  
+  return assembled_matrix
 end
 
 def sorted_matrix

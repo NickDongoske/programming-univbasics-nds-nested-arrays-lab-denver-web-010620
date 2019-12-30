@@ -18,7 +18,7 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
 new_array = []
-ORGANIC_PRODUCE.push(new_array)
+new_array.push(CONVENTIONAL_PRODUCE)
 CONVENTIONAL_PRODUCE.push(new_array)
 return new_array
 

@@ -22,7 +22,7 @@ def assembled_matrix
 new_array = []
 x = ORGANIC_PRODUCE 
 y = CONVENTIONAL_PRODUCE 
-x && y << new_array
+x << y 
   
  
   # Build an array that contains both of the above arrays

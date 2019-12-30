@@ -20,7 +20,7 @@ def assembled_matrix
 x = ORGANIC_PRODUCE 
 y = CONVENTIONAL_PRODUCE 
 
-
+(x << y).flatten
   
  
   # Build an array that contains both of the above arrays

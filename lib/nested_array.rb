@@ -27,7 +27,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   assembled_matrix = []
-  concat = ORGANIC_PRODUCE.concat(CONVENTIONAL_PRODUCE)
+  concat = CONVENTIONAL_PRODUCE.concat(ORGANIC_PRODUCE)
   assembled_matrix.push(concat)
 end
 

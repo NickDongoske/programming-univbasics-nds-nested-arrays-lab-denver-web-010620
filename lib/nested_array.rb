@@ -17,8 +17,8 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-NEW_ARRAY = [
-  ]
+# NEW_ARRAY = [
+#   ]
   
  
   # Build an array that contains both of the above arrays
@@ -26,9 +26,9 @@ NEW_ARRAY = [
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
-  assembled_matrix = []
+  NEW_ARRAY = []
   concat = CONVENTIONAL_PRODUCE.concat(ORGANIC_PRODUCE)
-  assembled_matrix.push(concat)
+  NEW_ARRAY.push(concat)
 end
 
 def sorted_matrix

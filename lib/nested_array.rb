@@ -17,13 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  # ORGANIC_PRODUCE += CONVENTIONAL_PRODUCE 
-new_array = []
-x = ORGANIC_PRODUCE 
-y = CONVENTIONAL_PRODUCE
-
- x.push(new_array, y) 
- y.push(new_array, y)
+ all_storage = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 
  
   # Build an array that contains both of the above arrays

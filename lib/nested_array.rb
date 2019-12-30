@@ -17,7 +17,10 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-ORGANIC_PRODUCE += CONVENTIONAL_PRODUCE 
+x = ORGANIC_PRODUCE 
+y = CONVENTIONAL_PRODUCE 
+
+
   
  
   # Build an array that contains both of the above arrays

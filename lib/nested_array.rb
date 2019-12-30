@@ -17,10 +17,29 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-new_array = []
-x = ORGANIC_PRODUCE 
-y = CONVENTIONAL_PRODUCE 
-x && y << new_array
+  ARRAY = [
+    
+    ORGANIC_PRODUCE = [
+      "Strawberries",
+      "Potatoes",
+      "Grapes",
+      "Avocadoes",
+      "Asparagus"
+]
+
+    CONVENTIONAL_PRODUCE = [
+      "Grapefruit",
+      "Pineapple",
+      "Oranges",
+      "Watermelon",
+      "Eggplant"
+]
+]
+
+# new_array = []
+# x = ORGANIC_PRODUCE 
+# y = CONVENTIONAL_PRODUCE 
+# x && y << new_array
   
  
   # Build an array that contains both of the above arrays
